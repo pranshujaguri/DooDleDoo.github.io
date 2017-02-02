@@ -52,7 +52,7 @@
 		$(function () {
 			if (!$.browser.msie) {
 				var a = 0;
-				for (; a < 3; a += 1) {
+				for (; a < 7; a += 1) {
 					setTimeout(function b() {
 						var a = Math.random() * 1e3 + 4e3
 							, c = $("<div />", {
@@ -66,7 +66,7 @@
 						$.when($(c).animate({
 							opacity: 1
 						}, {
-							duration: a / 2
+							duration: a / 1
 							, easing: "linear"
 							, queue: false
 							, complete: function () {
@@ -141,16 +141,8 @@
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
      border-color:#999; 
 }
-    .head1{
-        z-index: 0;
-    }
-    #diff{
-        
-        background-image:url(../new/Images/nav_bg.png);
-    }
-    #diff1{
-        background-image:url(../new/Images/nav_bg.png);
-    }
+    
+    
     .head2{
             position: relative;
             margin-top: -23px;
@@ -168,43 +160,15 @@
  
 }
 }
-    @media (max-width: 769px) {
-        #viewport {
-        background-repeat: no-repeat;
-    background-size: contain;
-    margin: 0px;
-    margin-left: -22px;
-    /* position: fixed; */
-    /* max-height: 900px; */
-    /* position: relative; */
-    width: 700px;
-    /* max-width: 1143px; */
-    height: 400px;
-    /* overflow: hidden; */
-    position: fixed;
-    /* background-size: cover; */
-    background-size: cover;
-    /* overflow: hidden; */
-    background: url('../Images/bbb.webp');
-}
-    }
-.list-inline {
+    
+    
+ .list-inline {
     background-color: cadetblue;
    
 }
 
 
-   /* @media (max-width: 1900px) {
-    img {
-    margin-left: -391px;
-}
-        .text-center {
-    padding: 15px;
-            margin-top: 404px;
-    text-align: center;
-    margin-top: 13px;
-}*/
-    }
+ 
    .font p{
        
     font-family: 'Stalemate', cursive;
@@ -227,6 +191,7 @@
     max-width: 100%; 
 }
     }
+  
     @media (max-width:1980){
    .navbar-header> img {
     margin-left: -391px;
@@ -246,11 +211,31 @@
 }
     }
            
-        }
-           
-        
-    
-    
+         @media (max-width: 768px){
+            section {
+    margin-top: 80px;
+                 
+             }
+    }
+         @media (max-width: 768px){
+            #viewport .smoke {
+    margin-right: 100px;
+    margin-left: -10px;
+  position: absolute;
+  width: 400px;
+  height: 210px;
+  background:url('../Images/smoke-texture.png') no-repeat;
+  bottom: 255px; 
+ 
+     
+}
+    }
+    .img-responsive>img{
+          display:block; 
+    height: auto; 
+       margin-top: 100px;
+        max-width: 100%
+    }
     </style>
 
 <body id="" class="index" >
@@ -305,13 +290,28 @@
    <!--header closed-->
    
 
-
-	<div class="visible-fhd" id="wrap">
+      <!-- Header image -->
+      
+     <div id="viewport">
+       <img class="img-responsive" src="Images/aboutbg%20(1).jpg" alt="img" style="
+    margin-left: 3px;
+">
+          </div>
+      
+  
+    
+ 
+<!--<div class="col-lg-12" style="
+    position: inherit;
+    margin-bottom: 55px;
+">-->
+	<!--<div class="visible-fhd" id="wrap">
 	 
-		<div id="viewport">
 		
-	    </div>
+		
+	    
 </div>
+</div>-->
 <!--cupimage div closed-->
        
        <hr class="featurette-divider">
@@ -413,7 +413,9 @@
 					<div class="service">
 						<div class="icon-holder">
 						<a href="#"  >
-						    <img  id="resp"  src="Images/3.png" alt="" class="icon"></a>
+						    <img  id="resp"  src="Images/3.png" alt="" class="icon" style="
+    margin-right: 2px;
+"></a>
 							</div>
 						</div>
 				<!--<h4 class="heading"> C </h4>-->
@@ -433,7 +435,11 @@
 <footer  class="text-center">
                   <div class="col-lg-12">
                         
-                        <ul class="list-inline">
+                        <ul class="list-inline"
+                           style="
+    background-color: cadetblue;
+    color: black;
+">
                             <li>
                                 <a href="https://www.facebook.com/DoodleDooDesignNAdvertising?ref=hl" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
                             </li>
