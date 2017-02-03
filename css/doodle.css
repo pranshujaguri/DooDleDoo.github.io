@@ -47,18 +47,12 @@ body {
     margin-bottom: -20px;
         text-align: center;
     }  
-   /* .thead{
-        background-color: darkslategray;
-    }*/
-   
+  
     .row{
        /* padding-top: 30px;*/
         
     }
-   /*.service a {
-        display: block;
-        padding: 10px;
-    }    */
+  
    
     .a{
       text-align: center; 
@@ -137,9 +131,7 @@ margin-left: -49px;
     body {
 			margin: 0;
 			padding: 0;
-		/*	background: #2A140E;*/
-			/*text-align: center;*/
-			/*color: brown;*/
+		
 		}
 		a {
 			color: #fff;
@@ -149,7 +141,7 @@ margin-left: -49px;
 		
 @media (max-width: 769px) {
  #viewport {
-     margin-top: 88px;
+     margin-top: 78px;
     }
     img {
     margin-top:-50px ;
@@ -165,16 +157,7 @@ margin-left: -49px;
     margin-top: -29px;
 }
         }
-/*@media (min-width: 1200px){
-.container {
-    width: 1259px;
-}
-}*/
-/*@media (min-width: 768px){
-.container {
-    width: 777px;
-}
-}*/
+
 .text-center {
     
     padding: 15px;
@@ -188,7 +171,7 @@ margin-left: -49px;
     background-repeat: no-repeat;
     background-size: contain;
     /* margin: 0px; */
-    margin-left: -74px;
+    margin-left: -70px;
     /* margin-left: -56px; */
     /* position: fixed; */
     max-height: 962px;
@@ -210,16 +193,41 @@ margin-left: -49px;
 		
 #viewport .smoke {
     margin-right: 100px;
-    margin-left: -50px;
+    margin-left: -80px;
   position: absolute;
   width: 999px;
   height: 410px;
   background:url('../Images/Smoke_PNG_Transparent_Image_4.png') no-repeat;
-  bottom: 140px; 
+  bottom: 50px; 
  
      
 }
-		
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #555;
+    background-color: #24cebb;
+}
+	/*@media (min-width: 769px) {
+        #viewport .smoke {
+            bottom: 90px;
+            margin-left: -80px;
+            height:400px;
+            width:900px;
+       
+             background:url('../Images/Smoke_PNG_Transparent_Image_2.png') no-repeat;
+        }
+}*/
+@media (max-width: 992px) {
+        #viewport .smoke {
+             margin-right: 100px;
+    margin-left: -80px;
+  position: absolute;
+  width: 999px;
+  height: 410px;
+           bottom: 300px; background:url('../Images/Smoke_PNG_Transparent_Image_4.png') no-repeat;
+  bottom: 180px; 
+    }
+}
+
 body {
     overflow-x: hidden;
    /* overflow-y: hidden;*/
@@ -349,6 +357,7 @@ header .intro-text .skills {
   color: white;
 }
 .navbar-custom .navbar-nav {
+      /*  margin-top: 60px;*/
   letter-spacing: 1px;
 }
 .navbar-custom .navbar-nav li a {

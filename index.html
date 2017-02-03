@@ -52,7 +52,7 @@
 		$(function () {
 			if (!$.browser.msie) {
 				var a = 0;
-				for (; a < 7; a += 1) {
+				for (; a < 6; a += 1) {
 					setTimeout(function b() {
 						var a = Math.random() * 1e3 + 4e3
 							, c = $("<div />", {
@@ -159,7 +159,7 @@
 }
  
 }
-}
+
     
     
  .list-inline {
@@ -175,7 +175,7 @@
 }
     .navbar-brand> img {
     margin-left: 27px;
-    /* width: 0%; */
+     width: 0%; 
     display: block;
     position: absolute;
     width: 13%;
@@ -210,6 +210,16 @@
    margin-left: 69px;
 }
     }
+   /* @media (max-width: 768px){
+        .head1>img{
+          display:block; 
+    height: auto; 
+       margin-top: 100px;
+        max-width: 100%
+        
+    }
+        
+    }*/
            
          @media (max-width: 768px){
             section {
@@ -230,13 +240,18 @@
      
 }
     }*/
-    .head1>img{
-          display:block; 
-    height: auto; 
-       margin-top: 100px;
-        max-width: 100%
+    a, a:hover, a:focus, a:active, a.active {
+    color: #18BC9C;
+    outline: none;
+}
+
+
+    /*.head1>img{
+         
+     overflow: hidden;
+        max-width: 300%
         
-    }
+    }*/
     .img-responsive>img{
           display:block; 
     height: auto; 
@@ -246,7 +261,51 @@
     </style>
 
 <body id="" class="index" >
-   <a class="scrollToTop" href="#"><i class="fa fa-chevron-up"></i></a>
+<!-- <section id="menu-area">
+ 
+    <nav class="navbar navbar-default main-navbar" role="navigation" style="
+    background-color: #c9cacb;
+">  
+      <div class="container">
+        <div class="navbar-header" style="
+    background-color: #cccdce;
+">
+           FOR MOBILE VIEW COLLAPSED BUTTON 
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          --><!-- LOGO -->     
+		  <!-- Image logo  -->
+         <!-- <a class="navbar-brand logo" href="index.html">
+                <img class="img-responsive" src="./Images/favicon-32x32.png.gif" alt="logo">
+                </a>-->
+           
+           <!-- Text logo  -->
+<!--            <a class="navbar-brand logo" href="index.html"><span>Rex</span></a>                      -->
+        <!--</div>--><!--
+        <div class="head1">
+        <img  src="Images/nav_bg.png" alt="">
+        </div>
+        <div id="navbar" class="navbar-collapse collapse" style="
+    margin-top: -64px;
+">
+          <ul id="top-menu" class="  navbar-right nav navbar-nav main-nav menu-scroll">
+            <li ><a href="index.html">Home</a></li>
+            
+            <li><a href="#from-blog">BLOG </a></li>      
+            <li><a href="#contact">CONTACT</a></li>
+            <li class="active"><a href="index.html">ABOUT</a></li>             
+            
+          </ul>                            
+        </div>
+        /.nav-collapse 
+         </div>          
+    </nav> 
+    </section>-->
+  <!-- <a class="scrollToTop" href="#"><i class="fa fa-chevron-up"></i></a>-->
     <nav id="mainNav" class="navbar navbar-inverse navbar-fixed-top navbar-custom">
        
         <div class="container">
@@ -270,16 +329,14 @@
                
                  <ul class="nav navbar-nav navbar-right" id="bs-example-navbar-collapse-1">
                     
-                    <li class="page-scroll ">
-                       
-                        <a href="index.html">HOME</a>
+                    <li class="page-scroll ">     
+                      <a href="index.html">HOME</a>
                     </li>
                     
                     <li   class="page-scroll">
                         <a href="index.html">Client</a>
                     </li>
                     <li   class="page-scroll active">
-                        
                          <a href="index.html">About US</a>
                     </li>
                     <li  class="page-scroll">
@@ -290,52 +347,30 @@
             </div>
             <!-- /.navbar-collapse -->
             </div>
-        <div>
-        </div>
-        <!-- /.container-fluid -->
+       
+       
+    
     </nav>
    <!--header closed-->
    
 
       <!-- Header image -->
       
-     <div id="viewport">
+     <div id="viewport" style="
+    margin-top: 78px;
+    margin-right: 3px;
+    margin-left: -3px;
+">
        <img class="img-responsive" src="Images/aboutbg%20(1).jpg" alt="img" style="
     margin-left: 3px;
+    margin-top:-20px;
 ">
           </div>
       
   
-    
- 
-<!--<div class="col-lg-12" style="
-    position: inherit;
-    margin-bottom: 55px;
-">-->
-	<!--<div class="visible-fhd" id="wrap">
-	 
-		
-		
-	    
-</div>
-</div>-->
-<!--cupimage div closed-->
        
        <hr class="featurette-divider">
-      <!-- <img src="Images/aboutus.png" alt=""style="
-    margin-left: 562px;
-    /* margin-left: initial; */
-    margin-top: -19px;
-">-->
-<!--<button class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Large modal</button>
-
-<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      ...
-    </div>
-  </div>
-</div>-->
+      
 <section id="services" class="section section-padded">
 		<div class="container">
 			<div class="row text-center title">
