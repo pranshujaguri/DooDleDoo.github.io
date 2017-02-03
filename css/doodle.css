@@ -48,12 +48,12 @@ body {
         text-align: center;
     }  
   
-    .row{
-       /* padding-top: 30px;*/
+    /*.row{
+        padding-top: 30px;
         
     }
   
-   
+   */
     .a{
       text-align: center; 
         
@@ -102,10 +102,10 @@ max-height: 298px;
     .footer-below{
         background-color: #044b52; !important
     }
-    #row1{
+   /* #row1{
         margin-right: 0px; 
     margin-left: -50px; 
-    }
+    }*/
      .map {
       /*  margin-top: 5px;*/
         min-width: 300px;
@@ -126,7 +126,7 @@ img {
 margin-left: -49px;
 }
 .navbar-fixed-top .navbar-collapse {
-  /*  margin-top: -62px;*/
+    margin-top: -116px;
 }
     body {
 			margin: 0;
@@ -141,6 +141,8 @@ margin-left: -49px;
 		
 @media (max-width: 769px) {
  #viewport {
+         margin-left: -4px;
+
      margin-top: 78px;
     }
     img {
@@ -332,7 +334,7 @@ header .intro-text .skills {
 }
 .navbar-custom {
     
-  background: #a1a3a5;
+  background: #f1f1f1;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
