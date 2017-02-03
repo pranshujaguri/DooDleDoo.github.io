@@ -126,7 +126,7 @@ img {
 margin-left: -49px;
 }
 .navbar-fixed-top .navbar-collapse {
-    margin-top: -62px;
+  /*  margin-top: -62px;*/
 }
     body {
 			margin: 0;
@@ -332,7 +332,7 @@ header .intro-text .skills {
 }
 .navbar-custom {
     
-  background: #f1f1f1;
+  background: #a1a3a5;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -357,7 +357,7 @@ header .intro-text .skills {
   color: white;
 }
 .navbar-custom .navbar-nav {
-      /*  margin-top: 60px;*/
+        margin-top: 60px;
   letter-spacing: 1px;
 }
 .navbar-custom .navbar-nav li a {
